@@ -5,6 +5,9 @@
 ## Build Setup
 此demo使用axios(第三方请求数据插件)请求mock.js自动生成的数据。
 
+Vue.prototype.$http = axios  在main.js中把axios添加到vue原型中，则可在每个组件中调用
+//全局引入使用vue原型中的方法this.$http,已经把axios添加到原型中
+
 ``` bash
 # install dependencies
 npm install
