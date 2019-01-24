@@ -3,6 +3,7 @@
 > vue-demo01
 
 ## Build Setup
+此demo使用axios(第三方请求数据插件)请求mock.js自动生成的数据。
 
 ``` bash
 # install dependencies
